@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Varela&display=swap');            
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Seaweed+Script&family=Varela&display=swap');
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                    font-size:10vw;
+                    margin: 0;
+                    padding: 0;
+                    height: 100%;
+                    background-color: #cec1e7;
+            }
+
+            @media only screen and (max-width: 600px) {
+                body {
+                    font-size:10vw;
+                    margin: 0;
+                    padding: 0;
+                    height: 100%;
+                    background-color: #cec1e7;
+                }
+            }
+
+            div {
+                resize: both;
+            }
+            
+            div.center {
+                font-family: 'Montserrat', sans-serif;
+                margin: 20px;
+                text-align: center;
+                color:#486B38
+            }
+
+            .p1 {
+                text-align: center;
+                color:#486B38;
+                font-family: 'Seaweed Script', cursive;
+            }
+
+            .p2 {
+                font-style: italic;
+            }
+
+            .p3 {
+                font-size: 35px;
+            }
+
+            img {
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+                width: 375px;
+                height: 350px;
+            }
+
+            button {
+                writing-mode: horizontal-tb;
+                font-family: 'Montserrat', sans-serif;
+                color:#cec1e7;
+                background-color: #486B38;
+                font-size: medium;
+                width: 180px;
+                height: 35px;
+                border: 6px;
+                border-radius:10px;
+                display: block;
+                display: inline-block;
+            }
+
+            div.btn {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+
+        </style>
+    </head>
+
+
+        <body>
+            <div class="center">
+                <h1 style="font-size: 50px; margin-bottom: -4px;"> WELCOME TO <br></h1>
+            </div>
+
+            <p class="p1" style="font-size: 25px; margin-top: 15px;"> <bold> The</bold> <br>
+            <span class="p2" style="font-size: 70px; margin-bottom: -20px;"> Midtown <br> </span>
+            <span class="p3"> Hotel</span> </p>
+
+            <img src="img/hotel.jpg" alt="hotel" style="max-width:100%;height:auto;">
+
+            <div class="btn">
+                <button onclick="location.href='checkin.html'"><bold>GUEST CHECK-IN</bold></button>
+                <button onclick="location.href='giftshop.html'"><bold>GIFT SHOP</bold></button>
+            </div>
+        </body>
+    
+
+
+</html>
