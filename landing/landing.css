@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Varela&display=swap');            
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Seaweed+Script&family=Varela&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #cec1e7;
+}
+
+div.center {
+    font-family: 'Montserrat', sans-serif;
+    font-size:10vw;
+    margin: 20px;
+    text-align: center;
+    color:#486B38
+}
+
+.p1 {
+    text-align: center;
+    color:#486B38;
+    font-family: 'Seaweed Script', cursive;
+}
+
+.p2 {
+    font-style: italic;
+}
+
+.p3 {
+    font-size: 35px;
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+}
+
+button {
+    writing-mode: horizontal-tb;
+    font-family: 'Montserrat', sans-serif;
+    color:#cec1e7;
+    background-color: #486B38;
+    font-size: 13px;
+    width: 130px;
+    height: 35px;
+    border-radius:10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div.container {
+    text-align: center;
+}
