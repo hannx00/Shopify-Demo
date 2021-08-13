@@ -1,5 +1,5 @@
 # Shopify-Demo
 
-My demo for a Shopify webpage. Currently working on the backend aspects. 
+My demo for a Shopify webpage (wip)
 
 Technologies (so far): HTML, CSS. 
