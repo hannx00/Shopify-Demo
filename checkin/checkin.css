@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Varela&display=swap');            
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Seaweed+Script&family=Varela&display=swap');
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 600px) { 
     body {
@@ -11,32 +8,55 @@
         font-family: 'Montserrat', sans-serif;
         color:#486B38;
         text-align: center;
-        padding-top: 20%;
+        padding-top: 30%;
     }  
 
-    h1, h2 {
-        font-size: small;
-        font-weight: bold;
+    h1 {
+        font-size: 30px;
     }
 
     .button {
-        background-color: #486B38;
-        border-radius: 10px;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    input {
+        /* position: relative; */
+        /* display: inline-block; */
         font-family: 'Montserrat', sans-serif;
         color: #cec1e7;
         font-size: 10px;
-        margin: 5px;
-        margin-top: 7%;
-        width: 115px;
-        height: 27px;
+        box-sizing: border-box;
+        /* transition: .5s; */
     }
+
+    input[type="text"] {
+        background:pink;
+        width: 200px;
+        height: 40px;
+        border: none;
+        outline: none;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    input[type="submit"] {
+        position: relative;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: #486B38;
+    }
+
 
     img {
         height: auto;
-        max-width: 96%;
+        max-width: 75%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 5%;
     }
 }
 
