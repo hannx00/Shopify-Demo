@@ -2,4 +2,4 @@
 
 My demo for a Shopify webpage (wip)
 
-Technologies (so far): HTML, CSS. 
+Technologies (so far): HTML, CSS, Bootstrap. 
