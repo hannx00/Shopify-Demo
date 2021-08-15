@@ -1,0 +1,81 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto+Mono:wght@100&display=swap');            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+body {
+    background-color: #cec1e7;
+}
+
+div.center {
+    font-family: 'Montserrat';
+    font-style: inherit;
+    text-align: center;
+    color:#486B38;
+}
+
+div.float-container {
+    padding: 15px;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: -1%;
+}
+
+.float-child {
+    float: left;
+} 
+
+.float-child.hat {
+    padding-left: 100px;
+} 
+
+img {
+    writing-mode: horizontal-tb;
+    width: 320px;
+    height: 350px;
+    margin: 35px;
+}
+
+
+* {
+    writing-mode: horizontal-tb;
+    font-family: 'Montserrat';
+    font-size: medium;
+    color:#486B38;
+    line-height: .7cm;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+}
+
+.child {
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: -3%;
+    text-align: center;
+}
+
+.child1{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: -3%;
+    text-align: center;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    color:#cec1e7;
+    background-color: #486B38;
+    font-size: medium;
+    width: 100px;
+    height: 30px;
+    border: 6px;
+    border-radius:10px;
+    margin: 25px;
+}
+
+div.btn {
+    position: relative;
+    top: 10%;
+    left: 47%;
+} */
