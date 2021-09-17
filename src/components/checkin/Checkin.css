@@ -1,114 +1,90 @@
-.reception-bg {
-    padding: 2rem;
-    width: 35%;
+.header {
+    padding-top: 4rem;
+}
+.bg {
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.btn {
-    font-size: 1.2rem !important;
-    padding: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 input {
-    position: relative; 
     display: inline-block;
     color: #cec1e7;
     box-sizing: border-box;
 }
 
-input {
-    position: relative; 
-    display: inline-block;
-    color: #cec1e7;
-    box-sizing: border-box;
-}
-
-input[type="text"] {
+.input-txt {
     background:pink;
-    width: 25vw;
-    height: 5vh;
     border: none;
     outline: none;
-    padding: 0;
+    padding: 0.5rem 4rem 0.5rem 4rem;
     border-radius: 10px 0 0 10px;
     color: #486B38;
+    width: max-content;
 }
 
-input[type="submit"] {
+.input-sm {
     position: relative;
     border-radius: 0 10px 10px 0;
     left: -7px;
-    width: 100px;
-    height: 5vh;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     border: none;
     outline: none;
     cursor: pointer;
     background-color: #486B38;
 }
 
-.script {
+.innerContainer{
     text-align: center;
-    padding: 2rem 2rem 0 2rem
+    padding: 2rem 0 2rem 0;
 }
 
-p {
+.script {
     margin: auto;
-    width: 500px;
-    font-size: 1.2vw !important;
+    width: 550px;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1024px) { 
-    .reception-bg {
-        width: 75%;
-        padding: 1rem;
+    .bg {
+        width: 40%;
     }
 
-    .btn {
-        font-size: 1.5rem !important;
+    .innerContainer {
+        padding: 1.5rem 0 1.5rem 0;
     }
 
-    input[type="text"] {
-        width: 50vw;
-        height: 5vh;
+    .input-txt {
+        padding: 0.5rem 3rem 0.5rem 3rem;
     }
-
-    input[type="submit"] {
-        width: 15vw;
-        height: 5vh;
-    }
-
+    
     .script {
-        padding: 1.5rem;
-        text-align: center;
-    }
-
-    p {
         margin: auto;
-        width: 55vw;
-        font-size: 2vh !important;
-
+        width: 350px;
+        font-size: 1rem;
     }
+
 }
 
 @media screen and (max-width: 600px) {
-    .btn {
-        font-size: 0.7rem !important;
-        padding: 1rem;
+    .bg {
+        width: 60%;
     }
 
-    input[type="text"] {
-        width: 50vw;
-        height: 6.5vh;
+    .innerContainer {
+        padding: 1rem 0 1rem 0;
     }
 
-    input[type="submit"] {
-        width: 22vw;
-        height: 6.5vh;
+    .input-txt {
+        padding: 0.3rem 0.8rem 0.3rem 0.8rem;
     }
-
-    p {
-        font-size: 2.2vh;
+    .input-sm {
+        padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+    }
+    .script {
+        width: 200px;
+        font-size: 0.7rem;
     }
 }

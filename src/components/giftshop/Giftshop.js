@@ -11,9 +11,7 @@ class Giftshop extends React.Component {
         return(
             <Container>
                 <Row>
-                    <h1 style={{
-                        padding: "3rem 0 1rem 0"
-                    }}>
+                    <h1 className="header">
                         THE GIFT SHOP
                     </h1>
                 </Row>
@@ -22,27 +20,17 @@ class Giftshop extends React.Component {
                     <div className="innerContainer"> 
                         <div className="column">
                             <img src={shirt} alt="shirt-img" className="gift-img"/>
-                            <p style={{paddingTop: "1rem"}}>THE STAFF BUTTON DOWN</p>
-                            <p style={{paddingBottom: "1rem"}}>$275</p>
+                            <p class="product-detail">THE STAFF BUTTON DOWN</p>
+                            <p class="product-detail">$275</p>
                         </div>
 
                         <div className="column">
                             <img src={hat} alt="hat-img" className="gift-img"/>
-                            <p style={{paddingTop: "1rem"}}>MIDTOWN HOTEL TRUCKER</p>
-                            <p>$40</p>
+                            <p class="product-detail">MIDTOWN HOTEL TRUCKER</p>
+                            <p class="product-detail">$40</p>
                         </div>
                     </div>
                 </Row>
-
-                {/* <Row>
-                    <div className="innerContainer">
-                        <div className="column">
-                            <img src={hat} alt="hat-img" className="gift-img"/>
-                            <p style={{paddingTop: "1rem"}}>MIDTOWN HOTEL TRUCKER</p>
-                            <p>$40</p>
-                        </div>
-                    </div>
-                </Row> */}
 
                 <Row>
                     <div className="btn">

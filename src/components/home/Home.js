@@ -12,12 +12,9 @@ class Home extends React.Component {
             <Container>
                 
                 <Row>
-                    <div className="header">
-                        <h1>WELCOME TO</h1>
-                        <h1>The</h1>
-                        <h1>Midtown</h1>
-                        <h1>Hotel</h1>
-                    </div>
+                    <h1 className="header">
+                        WELCOME TO  <br/> The  <br/> Midtown  <br/> Hotel
+                    </h1>
                 </Row>
 
                 <div>

@@ -10,29 +10,25 @@ class Checkin extends React.Component {
         return(
             <Container fluid>
                 <Row>
-                    <h1 style={{
-                        paddingTop: "8vh",
-                        textAlign: "center",
-                        fontSize: "3rem"
-                    }}> GUEST CHECK-IN</h1>
+                    <h1 className="header"> GUEST CHECK-IN</h1>
                 </Row>
 
                 <div>
-                    <img src={reception} alt="reception-img" className="reception-bg"/>
+                    <img src={reception} alt="reception-img" className="bg"/>
                 </div>
 
                 <Row>
                     <div class="btn">
                         <form>
-                            <input type="text" name="" placeholder="   YOUR EMAIL ADDRESS" />
-                            <input type="submit" name="" value="CHECK-IN" />
+                            <input type="text" className="input-txt" placeholder="  YOUR EMAIL ADDRESS" />
+                            <input type="submit" className="input-sm" value="CHECK-IN" />
                         </form> 
                     </div>
                 </Row>
 
                 <Row>
-                    <div className="script">
-                        <p>
+                    <div className="innerContainer">
+                        <p className="script">
                             KEEP UP TO DATE AND IN THE KNOW ABOUT NEWS, RELEASES, SALES, AND ALL OTHER INFORMATION ABOUT THE MIDTOWN HOTEL BY SIGNING UP FOR E-MAILS.
                         </p>
                     </div>

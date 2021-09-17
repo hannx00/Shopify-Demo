@@ -5,16 +5,18 @@
 
 
 .header {
-    padding: 1rem 8rem 2rem 8rem;
+    padding: 1rem 8rem 1rem 8rem;
     text-align: center;
+    font-size: 4vw;
 }
 
 .bg {
     text-align: center;
-    width: 40%;
+    width: 55%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 0.5rem;
 }
 
 .button{
@@ -23,20 +25,13 @@
     border-radius: 5px;
     text-decoration: none;
     font-size: 1.3rem;
-    padding: 0.5rem;
-    width: 200px;
-    height: 6vh;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
     .bg {
         width: 95%;
-        padding-bottom: 1rem;
-    }
-
-    h1 {
-        font-size: 3rem !important;
     }
 }
 
@@ -47,14 +42,9 @@
         padding-bottom: 0;
     }
 
-    .button{
+    .button {
         font-size: 0.8rem;
-        width: 120px;
-        height: 38px;
-    }
-
-    h1 {
-        font-size: 2rem !important;
+        padding: 0.5rem 1rem 0.5rem 1rem;
     }
 }
 
